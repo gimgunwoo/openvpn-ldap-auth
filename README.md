@@ -5,7 +5,7 @@ I already wrote this documentation for work but I'd like to share it so that oth
 
 ## Table of contents
 [Requirements](#requirements)  
-[LDAP authentication in OpenVPN server](#LDAPauth)  
+[LDAP authentication in OpenVPN server](#ldap-auth)  
 
 <a name="requirements"/>  
 ## Requirements  
@@ -14,7 +14,7 @@ I already wrote this documentation for work but I'd like to share it so that oth
 * Ubuntu machine(>= 16.04) for OpenVPN  
 * Ubuntu machine(>= 16.04) for [PWM](https://github.com/pwm-project/pwm)  
 
-<a name="LDAPauth"/>  
+<a name="ldap-auth"/>  
 ## LDAP authentication in OpenVPN server  
 1. Install packages below  
     - openvpn  
