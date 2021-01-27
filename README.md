@@ -7,23 +7,23 @@ I already wrote this documentation for work but I'd like to share it so that oth
 [Requirements](#Requirements)  
 [LDAP authentication in OpenVPN server](#LDAPauth)  
 
-<a name="Requirements"/>
+<a name="Requirements"/>  
 ## Requirements  
-* LDAP server
-* Ubuntu machine(>= 16.04) for OpenVPN
-* Ubuntu machine(>= 16.04) for [PWM](https://github.com/pwm-project/pwm)
+* LDAP server  
+* Ubuntu machine(>= 16.04) for OpenVPN  
+* Ubuntu machine(>= 16.04) for [PWM](https://github.com/pwm-project/pwm)  
 
 <a name="LDAPauth"/>
 ## LDAP authentication in OpenVPN server
 1. Install packages below  
   - openvpn  
   - openvpn-auth-ldap  
-2. Make sure ports for SSH, HTTPS and OpenVPN service in server are allowed
+2. Make sure ports for SSH, HTTPS and OpenVPN service in server are allowed  
 ```
-sudo ufw allow ssh
-sudo ufw allow https
-sudo ufw allow 1194/udp
-sudo ufw enable
+sudo ufw allow ssh  
+sudo ufw allow https  
+sudo ufw allow 1194/udp  
+sudo ufw enable  
 ```
 3. Once all packages are installed in the VPN server, create /etc/openvpn/auth/auth-ldap.conf file below. FQDN, bindDN user/password, and domain component should be changed accordingly  
 <details>
