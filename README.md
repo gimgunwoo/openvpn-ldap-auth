@@ -4,8 +4,8 @@ This step-by-step guide will help configure LDAP authentication in OpenVPN serve
 I already wrote this documentation for work but I'd like to share it so that other people can save their time on research for this.  
 
 ## Table of contents
-[Requirements](#Requirements)
-[LDAP authentication in OpenVPN server](#LDAP authentication in OpenVPN server)
+[Requirements](#Requirements)  
+[LDAP authentication in OpenVPN server](#LDAP authentication in OpenVPN server)  
 
 <a name="Requirements"/>
 ## Requirements  
