@@ -1,20 +1,22 @@
 # OpenVPN and LDAP authentication
 
-iThis step-by-step guide will help configure LDAP authentication in OpenVPN server, create and configure self service password site.  
+This step-by-step guide will help configure LDAP authentication in OpenVPN server, create and configure self service password site.  
 I already wrote this documentation for work but I'd like to share it so that other people can save their time on research for this.  
 
 ## Table of contents
 [Requirements](#requirements)  
 [LDAP authentication in OpenVPN server](#ldap-auth)  
 
-<a name="requirements"/>  
+<a name="requirements"/>
+
 ## Requirements  
 
 * LDAP server  
 * Ubuntu machine(>= 16.04) for OpenVPN  
 * Ubuntu machine(>= 16.04) for [PWM](https://github.com/pwm-project/pwm)  
 
-<a name="ldap-auth"/>  
+<a name="ldap-auth"/>
+
 ## LDAP authentication in OpenVPN server  
 1. Install packages below  
     - openvpn  
